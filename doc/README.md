@@ -14,6 +14,8 @@ Desarrollo web educativo bajo la metodología **SCRUM** gestionado mediante Trel
 | Cano Mendoza Alberto | Team Scrum | albertocano37@aragon.unam.mx |
 | Flores Mena Alan David | Team Scrum | davidflores78@aragon.unam.mx |
 | Vazquez Zuloeta Fabian | Team Scrum | fabianvazquez321@aragon.unam.mx |
+| Martínez Hernández Luis Daniel | Team Scrum | danielhernandez03@aragon.unam.mx |
+
 
 ---
 
