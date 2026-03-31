@@ -1,7 +1,69 @@
-/* Fuente y fondo principal */
-html, body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  background-color: #2C3E50; /* Deep Blue como fondo */
-  margin: 0;
-  padding: 0;
+/* Importar Open Sans desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2C3E50; /* Deep Blue */
+    color: #ecf0f1; /* Texto claro para contraste */
+    line-height: 1.6;
+}
+
+/* Contenedor general */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Encabezado */
+header {
+    background-color: #1a252f; /* Azul más oscuro */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* Enlaces */
+a {
+    color: #1abc9c; /* Verde azulado */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+button {
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+/* Footer */
+footer {
+    background-color: #1a252f;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
 }
