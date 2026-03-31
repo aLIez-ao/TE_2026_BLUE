@@ -1,0 +1,24 @@
+/*index*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    background: #00a8ff;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+a:hover {
+    background: #0097e6;
+    transform: scale(1.05);
+}
