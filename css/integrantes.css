@@ -126,3 +126,21 @@ footer p {
 .lista-ho li {
     margin: 0 15px;
 }
+
+.foto {
+    width: 200px;  /* Ajusta según tu diseño */
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%; /* Si la quieres circular */
+    border: 4px solid #3b82f6; /* Borde azul acorde al tema BLUE */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-perfil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Esto evita que la imagen se deforme */
+}

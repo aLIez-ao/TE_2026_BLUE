@@ -8,14 +8,23 @@
 </head>
 <body>
 
-    <button>SCRUM</button>
-    <button>INGENIRIA DE SOFTWARE</button>
-    <button>PATRONES DE DISEÑO</button>
-    <button>INTEGRANTES</button>
+    <a href="#" class="btn-link"><button>SCRUM</button></a>
+
+    <a href="../doc/coco.html" class="btn-link"><button>INGENIERÍA DE SOFTWARE</button></a>
+
+    <a href="#" class="btn-link"><button>PATRONES DE DISEÑO</button></a>
+
+    <a href="../doc/integrantes.html" class="btn-link"><button>INTEGRANTES</button></a>
 
     <footer>
         <p><strong>FES Aragón</strong> - Temas Especiales de Computación</p>
         <p>Profesor: Cabrera Jesús</p>
+        <p id="fecha"></p>
     </footer>
+
+    <script>
+        const opciones = { day: 'numeric', month: 'long', year: 'numeric' };
+        document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-ES', opciones);
+    </script>
 </body>
 </html>
